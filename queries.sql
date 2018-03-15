@@ -1,16 +1,14 @@
-﻿אבי רביץ אלקיים חמיאל יעקב בלוט
 
-1.
 select clientname,agentname from goldmosh.client natural join goldmosh.agent
-2.
+
 select clientname,agentname 
 from goldmosh.client natural join goldmosh.agent
 where agentname='Moshe Suissa'
-3.
+
 select cityname
 from goldmosh.city
 where areaid=4
-4.
+
 select nameco
 from goldmosh.course natural join goldmosh.department
 where namedep='mathematics'
