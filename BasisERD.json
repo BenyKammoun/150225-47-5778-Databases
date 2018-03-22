@@ -1,0 +1,446 @@
+{
+  "connectors": [
+    {
+      "type": "Connector",
+      "details": { "id": 3 },
+      "source": 2,
+      "destination": 1
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 5 },
+      "source": 4,
+      "destination": 1
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 8 },
+      "source": 7,
+      "destination": 6
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 10 },
+      "source": 9,
+      "destination": 6
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 13 },
+      "source": 12,
+      "destination": 11
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 15 },
+      "source": 14,
+      "destination": 11
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 17 },
+      "source": 16,
+      "destination": 11
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 19 },
+      "source": 18,
+      "destination": 11
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 23 },
+      "source": 22,
+      "destination": 11
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 26 },
+      "source": 25,
+      "destination": 24
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 28 },
+      "source": 27,
+      "destination": 24
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 32 },
+      "source": 31,
+      "destination": 24
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 34 },
+      "source": 33,
+      "destination": 24
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 36 },
+      "source": 35,
+      "destination": 24
+    },
+    {
+      "type": "Connector",
+      "details": { "id": 38 },
+      "source": 37,
+      "destination": 24
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 40
+      },
+      "source": 24,
+      "destination": 39
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 41
+      },
+      "source": 6,
+      "destination": 39
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 43
+      },
+      "source": 1,
+      "destination": 42
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 44
+      },
+      "source": 11,
+      "destination": 42
+    }
+  ],
+  "height": 1000,
+  "shapes": [
+    {
+      "type": "Entity",
+      "details": {
+        "name": "City",
+        "type": "regular",
+        "x": 501,
+        "y": 264,
+        "id": 1
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "name",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 434,
+        "y": 191,
+        "id": 2
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 564,
+        "y": 192,
+        "id": 4
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Area",
+        "type": "regular",
+        "x": 982,
+        "y": 469,
+        "id": 6
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 851,
+        "y": 468,
+        "id": 7
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "name",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1116,
+        "y": 468,
+        "id": 9
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Client",
+        "type": "regular",
+        "x": 502,
+        "y": 450,
+        "id": 11
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 637,
+        "y": 427,
+        "id": 12
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "name",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 644,
+        "y": 507,
+        "id": 14
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "phone number",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 401,
+        "y": 522,
+        "id": 16
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "address",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 527,
+        "y": 542,
+        "id": 18
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "agentName",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 359,
+        "y": 452,
+        "id": 22
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Agent",
+        "type": "regular",
+        "x": 982,
+        "y": 240,
+        "id": 24
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "id",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 998,
+        "y": 153,
+        "id": 25
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "name",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1097,
+        "y": 190,
+        "id": 27
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "rate",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1107,
+        "y": 255,
+        "id": 31
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "hierYear",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 885,
+        "y": 298,
+        "id": 33
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "bossID",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 882,
+        "y": 167,
+        "id": 35
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "salary",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 841,
+        "y": 234,
+        "id": 37
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "work in",
+        "isIdentifying": false,
+        "x": 982,
+        "y": 361,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 24
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 6
+          }
+        ],
+        "id": 39
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "live in",
+        "isIdentifying": false,
+        "x": 502,
+        "y": 350,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 1
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 11
+          }
+        ],
+        "id": 42
+      }
+    }
+  ],
+  "version": 2,
+  "width": 2000,
+  "www": "erdplus.com"
+}
