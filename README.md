@@ -3,7 +3,7 @@ Here we have all the SQL scripts to build the initial database for the mini-proj
 Run the sql files in the following order:
 
 1) The schema definition
-DB!.sql
+DB1.sql
 
 2) The data for all the tables are inserted
 area.sql
